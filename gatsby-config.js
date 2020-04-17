@@ -6,7 +6,7 @@ const sculptingPluginOptions = {
 }
 const siteMetadata = {
   title: "小书匠",
-  siteUrl: "https://suziwen.github.io",
+  siteUrl: "https://suziwen.github.io/acorns",
   author: "suziwen",
   description: `一款让你爱不释手的写作软件`,
 }
@@ -32,7 +32,7 @@ if (
 }
 module.exports = {
   siteMetadata,
-  pathPrefix: "/notes",
+  pathPrefix: "/acorns",
   plugins: [{ 
     resolve: `@suziwen/gatsby-theme-sculpting`,
     options: sculptingPluginOptions 
