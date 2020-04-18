@@ -10,25 +10,12 @@ const siteMetadata = {
   author: "suziwen",
   description: `一款让你爱不释手的写作软件`,
 }
-if (process.env.DISQUS_SHORT_NAME) {
-  sculptingPluginOptions['disqus'] = {
-    shortname: process.env.DISQUS_SHORT_NAME
-  }
-}
-
-if (
-  process.env.GITALK_CLIENT_ID &&
-  process.env.GITALK_CLIENT_SECRET &&
-  process.env.GITALK_REPO &&
-  process.env.GITALK_OWNER
-) {
-  sculptingPluginOptions['gitalk'] = {
-    clientID: process.env.GITALK_CLIENT_ID,
-    clientSecret: process.env.GITALK_CLIENT_SECRET,
-    repo: process.env.GITALK_REPO,
-    owner: process.env.GITALK_OWNER,
-    admin: [process.env.GITALK_ADMIN || process.env.GITALK_OWNER],
-  }
+sculptingPluginOptions['gitalk'] = {
+  clientID: "10453cc36f0507d47d1b",
+  clientSecret: "e0dc0be2f99fbe88d8a9035eb3d172aa6bbe4d9c",
+  repo: "acorns",
+  owner: "suziwen",
+  admin: ["suziwen"],
 }
 module.exports = {
   siteMetadata,
