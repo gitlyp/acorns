@@ -17,6 +17,7 @@ sculptingPluginOptions['gitalk'] = {
   owner: "suziwen",
   admin: ["suziwen"],
 }
+sculptingPluginOptions['gitalkCreateIssueToken'] = process.env.GITALK_CREATE_ISSUE_TOKEN
 module.exports = {
   siteMetadata,
   pathPrefix: "/acorns",

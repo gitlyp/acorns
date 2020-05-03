@@ -17,3 +17,5 @@ jobs:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: -- --prefix-paths
+        env:
+          GITALK_CREATE_ISSUE_TOKEN: ${{ secrets.ACCESS_TOKEN }}
