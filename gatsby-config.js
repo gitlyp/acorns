@@ -24,5 +24,11 @@ module.exports = {
   plugins: [{ 
     resolve: `@suziwen/gatsby-theme-sculpting`,
     options: sculptingPluginOptions 
+  }, {
+    resolve: `gatsby-plugin-baidu-analytics`,
+    options: {
+      siteId: "c02140dc523f5a309a2717a9a2bac552",
+      head: false
+    }
   }],
 }
