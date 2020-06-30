@@ -11,10 +11,10 @@
   },
   "private": true,
   "dependencies": {
-    "@suziwen/gatsby-theme-sculpting": "^1.0.6",
+    "@suziwen/gatsby-theme-sculpting": "^1.2.0",
     "gatsby": "^2.19.45",
-    "react": "^16.12.0",
     "gatsby-plugin-baidu-analytics": "^1.1.16",
+    "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
 }
