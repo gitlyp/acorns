@@ -13,6 +13,7 @@ const siteMetadata = {
 sculptingPluginOptions['gitalk'] = {
   clientID: "10453cc36f0507d47d1b",
   clientSecret: "e0dc0be2f99fbe88d8a9035eb3d172aa6bbe4d9c",
+  proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
   repo: "acorns",
   owner: "suziwen",
   admin: ["suziwen"],
